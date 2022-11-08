@@ -1,0 +1,19 @@
+{
+    "name": "muvi/read_java_properties_file",
+    "description": "parse a java properties file",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {        
+        "files": [
+            "src/parse_java_properties_file.php"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Suraj Kumar Mohapatra",
+            "email": "suraj@muvi.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
