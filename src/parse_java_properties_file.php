@@ -59,6 +59,7 @@ function parse_java_properties_file(string $filePath): array
             }
             return $separatorPos;
         };
+		//if the line has ended
         if (!$isLineContinuing) {
             //Key separator is = or : or whitespace
             // $keySeparatorPos = strpos($line, '=')
